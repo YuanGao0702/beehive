@@ -1,0 +1,14 @@
+CREATE TABLE lebanon
+(
+ title              			varchar(150) NOT NULL,
+ reporting_org 				varchar(150) NOT NULL,
+ description            		varchar(150) NOT NULL,
+ participating_org_Accountable          varchar(150) NOT NULL,
+ participating_org_Funding           	varchar(150) NOT NULL,
+ participating_org_Implementing  	varchar(150) NOT NULL
+
+ );
+
+INSERT INTO lebanon (title, reporting_org, description, participating_org_Accountable, participating_org_Funding, participating_org_Implementing) VALUES(1111,1111,1111,1111,1111,1111),(2222,2222,2222,2222,2222,2222),(3333,3333,3333,3333,3333,3333);
+
+
